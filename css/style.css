@@ -6,7 +6,6 @@ body,
 
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
 }
 
 .container {
@@ -62,12 +61,12 @@ body {
   position: absolute;
   text-align: center;
   width: 80%;
-  max-width: 310px;
+  max-width: 510px;
   right: 50%;
   top: 13%;
   -webkit-transform: translate(50%, 0);
           transform: translate(50%, 0);
-  font-size: 12px;
+  font-size: 20px;
   z-index: 2;
 }
 .timeline .swiper-slide .timeline-year {
@@ -191,67 +190,4 @@ body {
 .timeline .swiper-button-next:hover {
   -webkit-transform: translateX(3px);
           transform: translateX(3px);
-}
-@media screen and (min-width: 768px) {
-  .timeline .swiper-slide::after {
-    right: -30%;
-    bottom: -8%;
-    width: 240px;
-    height: 50%;
-    box-shadow: -230px 0 150px 50vw rgba(0, 0, 0, 0.7);
-  }
-  .timeline .swiper-slide-content {
-    right: 30%;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
-    width: 310px;
-    font-size: 11px;
-    text-align: right;
-  }
-  .timeline .swiper-slide .timeline-year {
-    margin-bottom: 0;
-    font-size: 32px;
-  }
-  .timeline .swiper-slide .timeline-title {
-    font-size: 46px;
-    margin: 0;
-  }
-  .timeline .swiper-pagination {
-    display: flex;
-  }
-  .timeline .swiper-button-prev {
-    top: 15%;
-    left: auto;
-    right: 15%;
-    -webkit-transform: rotate(90deg) translate(0, 10px);
-            transform: rotate(90deg) translate(0, 10px);
-  }
-  .timeline .swiper-button-prev:hover {
-    -webkit-transform: rotate(90deg) translate(-3px, 10px);
-            transform: rotate(90deg) translate(-3px, 10px);
-  }
-  .timeline .swiper-button-next {
-    top: auto;
-    bottom: 15%;
-    right: 15%;
-    -webkit-transform: rotate(90deg) translate(0, 10px);
-            transform: rotate(90deg) translate(0, 10px);
-  }
-  .timeline .swiper-button-next:hover {
-    -webkit-transform: rotate(90deg) translate(3px, 10px);
-            transform: rotate(90deg) translate(3px, 10px);
-  }
-}
-@media screen and (min-width: 1024px) {
-  .timeline .swiper-slide::after {
-    right: -20%;
-    bottom: -12%;
-    width: 240px;
-    height: 50%;
-    box-shadow: -230px 0 150px 39vw rgba(0, 0, 0, 0.7);
-  }
-  .timeline .swiper-slide-content {
-    right: 25%;
-  }
 }
