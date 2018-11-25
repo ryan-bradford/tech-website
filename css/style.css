@@ -42,7 +42,7 @@ body {
   position: relative;
   color: #fff;
   overflow: hidden;
-  background-size: cover;
+  background-size: 100vw 100vh;
   background-repeat: no-repeat;
   background-position: center center;
 }
